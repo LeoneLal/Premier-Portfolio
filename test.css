@@ -1,0 +1,213 @@
+body{
+    margin:0;
+}
+header{
+    background-image: url(fond.png);
+    color: white;
+    height: 100%;
+    width: auto;
+    
+    padding-bottom: 20px
+ 
+}
+ header img{
+    padding: 2%;
+    width: 20%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+headerimg:first-child{
+    margin-top: -45%;
+    width: 20%;
+    height: auto;
+    margin-left: 10%;
+    transform: rotate(-30deg);
+}
+header section~img{
+    position: absolute;
+    margin-top: -600px;
+    border-radius: 0px;
+    height: auto;
+    width: 25%
+}
+header section~img:last-child{
+    margin-left: 70%;
+}
+h1{
+    text-align: center;
+}
+header h1~a {
+    display: inline-block;
+    width: 20%;
+    margin-left: 20%;
+    margin-bottom: %;
+}
+a + p{
+    border-style: ridge ;
+    width: 50%;
+    display: block;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+header section{
+    border-style: none;
+    float:left;
+    margin-left: 25%;
+    width: 50%
+}
+header section p{
+    border-style: none;
+    float:left;
+    margin-left: 15%;
+    color: skyblue;
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+main section{
+    display: flex;
+    justify-content: space-around;
+}
+section div:first-child{
+    background-image: url(anglet.jpg);
+    background-size: 250px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+section div:nth-child(2){
+    background-image: url(espagnol.png);
+    background-size: 250px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+section div:nth-child(3){
+    background-image: url(eco.jpg);
+    background-size: 250px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+section div:nth-child(4){
+    background-image: url(equipe.jpg);
+    background-position: center;
+    background-size: 300px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+section div p{
+    text-align: center;
+    padding-top: 30%;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 20px;
+}
+mark{
+    color: black;
+    background-color: white;
+}
+hr{
+    width: 75%;
+    margin: 100px auto;
+}
+main article{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+main article p{
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    font-family: 'Kodchasan', sans-serif;
+}
+main article div{
+    border: 10px;
+    border-style:outset ;
+    padding: 10px;
+    border-top-color: skyblue;
+    border-left-color: skyblue;
+    border-right-color: blue;
+    border-bottom-color: blue;
+    width: 20%;
+}
+main div:last-child{
+    text-align: center;
+}
+main div:last-child div{
+    display: inline-block;
+    padding: 20px;
+}
+main div:last-child div:nth-child(2),main div:last-child div:nth-child(3){
+    border: 10px;
+    border-style:double;
+    padding: 10px;
+    width: 25%;
+}
+main div:last-child p{
+    font-size: 20px;
+     font-family: 'Kodchasan', sans-serif;
+}
+main div:last-child div:first-child{
+    width:15% ; 
+}
+main div:last-child div:last-child{
+    width: 15%
+}
+main div:last-child img{
+    width: 50%;
+    height: auto;
+}
+nav{
+    padding-bottom: 4%
+}
+nav p, ul{
+    font-family: 'Kodchasan', sans-serif;
+}
+nav div{
+    display: inline-block;
+    margin-left: 17%;
+    width: 25%;
+    text-align: justify;
+    border: 10px;
+    border-style:dashed;
+    padding: 10px;
+}
+footer{
+background-image: url(fond.png);
+color: white;
+height: 20%;
+width: auto;
+margin-left: -2%;
+margin-right: -0.42%;
+margin-bottom:-4%;
+padding-bottom: 20px;
+}
+footer button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 200%;
+    background-color: darkgrey;
+    border-color: white;
+}
+footer a{
+    text-decoration: none;
+    
+}
+footer h2{
+    padding-top: 15px;
+}
+html{
+    scroll-behavior: smooth;
+}
